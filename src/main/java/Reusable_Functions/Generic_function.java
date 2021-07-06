@@ -58,7 +58,7 @@ public class Generic_function {
 	public static XSSFCell cell,f;
 	public static XSSFRow row;
 	public static String CellData,path;
-	static File file = new File("configuration/config.properties");
+	static File file = new File("config/config.properties");
 	static Properties prop = new Properties();
 	public static int iter; 
 	public static String mainwindow,firefox= "geck",edge="msedge",chrome="chrome" ;
