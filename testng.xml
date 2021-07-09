@@ -7,5 +7,27 @@
   <class name="Runner_Files.Landing_welcome_positive_scenarios_runner"></class>
   </classes>
   </test> <!-- Test --> 
+<test name="Test2">
+  <classes>
+  <class name="Runner_Files.Signup_negative_scenarios_runner"></class>
+  </classes>
+  </test><!-- Test -->
 
+<test name="Test3">
+  <classes>
+  <class name="Runner_Files.Signup_positive_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+
+<test name="Test4">
+  <classes>
+  <class name="Runner_Files.Login_negative_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+
+ <test name="Test5">
+  <classes>
+  <class name="Runner_Files.Login_positive_scenarios_runner"></class>
+  </classes>
+  </test> <!-- Test -->
    </suite><!-- suite -->
