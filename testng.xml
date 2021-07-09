@@ -39,29 +39,12 @@
   </classes>
   </test> <!-- Test -->
 
-<test name="Test7">
-  <classes>
-  <class name="Runner_Files.Help_positive_scenarios_runner"></class>
-  </classes>
-  </test> <!-- Test -->
-
 <test name="Test8">
   <classes>
   <class name="Runner_Files.Your_profile_negative_scenarios_runner"></class>
   </classes>
   </test> <!-- Test -->
 
-<test name="Test9">
-  <classes>
-  <class name="Runner_Files.Your_profile_positive_scenarios_runner"></class>
-  </classes>
-  </test> <!-- Test -->
-
-<test name="Test10">
-  <classes>
-  <class name="Runner_Files.Homepage_positive_scenarios_runner"></class>
-  </classes>
-  </test> <!-- Test -->
 
 <test name="Test11">
   <classes>
@@ -135,15 +118,5 @@
   </classes>
   </test> <!-- Test --> 
 
-<test name="Test23">
-   <classes>
-  <class name="Runner_Files.Forgot_password_negative_scenarios_runner"></class>
-  </classes>
-  </test> <!-- Test --> 
 
-<test name="Test24">
-   <classes>
-  <class name="Runner_Files.Forgot_password_positive_scenarios_runner"></class>
-  </classes>
-  </test> <!-- Test --> 
    </suite><!-- suite -->
