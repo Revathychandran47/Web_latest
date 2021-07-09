@@ -179,9 +179,9 @@ public class Headerpage_positive_scenarios extends Generic_function {
 			  browser_wait(5);
 			click("header_privacy");
 			  browser_wait(5);
-			value = driver.findElement(By.xpath(OR_reader("privacy_ok"))).isDisplayed();
-	    	Assert.assertEquals(true,value);
-	    	click("privacy_ok");
+// 			value = driver.findElement(By.xpath(OR_reader("privacy_ok"))).isDisplayed();
+// 	    	Assert.assertEquals(true,value);
+// 	    	click("privacy_ok");
 		} catch (Exception e) {
 			e.getMessage();
 			takeScreenShot("header_positive_tc_010");
@@ -197,9 +197,9 @@ public class Headerpage_positive_scenarios extends Generic_function {
 			  browser_wait(5);
 			click("header_terms");
 			  browser_wait(5);
-			value = driver.findElement(By.xpath(OR_reader( "terms_ok"))).isDisplayed();
-	    	Assert.assertEquals(true,value);
-	    	click("terms_ok");
+// 			value = driver.findElement(By.xpath(OR_reader( "terms_ok"))).isDisplayed();
+// 	    	Assert.assertEquals(true,value);
+// 	    	click("terms_ok");
 	    	System.out.println("header positive");
 	    	driverquit();
 		} catch (Exception e) {
